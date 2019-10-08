@@ -1,0 +1,104 @@
+.logoContainer img,img#start {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    }
+
+.Desktop{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: none;
+}
+
+#windowsWallpaper{
+min-width: 100vw;
+height: 100vh;
+
+}
+.navbarWindows{
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 42px;
+    background-color:#225AD8;
+}
+#start{
+    width:auto;
+    height: 100%;
+    opacity: 1;
+}
+#start:hover{
+    width:auto;
+    opacity: 0.83;
+    height: 100%;
+}
+.button{
+    height: 42px;
+}
+.mainSpace{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    top: 140px;
+    left: 60px;
+}
+.logoTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 0.7em;
+    text-shadow: black 1px 1px;
+
+}
+.logoContainer{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.logoContainer img{
+    width: 2.4em;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;                         
+}
+.IENotification{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   opacity:0;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   width: 240px;
+   height: 38px;
+   background-color: rgb(25, 71, 168);
+   border-radius: 5px;
+
+}
+.IENotification:hover{
+    background-color: rgb(15, 57, 146);
+
+}
+.IENotification img{
+    width: 20px;
+    margin: 8px;
+    height: 20px;
+}
+.IENotification h2{
+font-size: 0.6em;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.appBar{
+    position: absolute;
+    top: 0px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    left: 150px;
+}
+
