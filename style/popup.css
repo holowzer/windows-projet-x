@@ -136,7 +136,19 @@ opacity: 0.83;
     align-items: flex-start;
     justify-content: flex-start;
 }
-
+.videoTrigger{
+    width: 90px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgb(147, 146, 179);
+}
 .folderHolder{
     display: flex;
     height: 300px;

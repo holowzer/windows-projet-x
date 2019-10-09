@@ -92,117 +92,14 @@ const loadingScene = new Scene({
         },
 
     },
-    ".IENotification": {
-        0: {
-            opacity:0,
-
-        },
-       17: {
-
-        },
-        17.1: {
-            opacity:0,
-
-        },
-       17.3: {
-
-            opacity:1,
-        },
-        17.4: {
-
-            "background-color": "rgb(25, 71, 168)",
-        },
-        17.9: {
-
-            "background-color": "rgba(231, 185, 33, 0.719)",
-
-        },
-        18.4: {
-
-            "background-color": "rgb(25, 71, 168)",
-
-        },
-        18.9: {
-
-            "background-color": "rgba(231, 185, 33, 0.719)",
-
-        },
-        19.4: {
-
-            "background-color": "rgb(25, 71, 168)",
-
-        },
-        19.9: {
-
-            "background-color": "rgba(231, 185, 33, 0.719)",
-
-        },
-        20.4: {
-
-            "background-color": "rgb(25, 71, 168)",
-
-        },
-        20.9: {
-
-            "background-color": "rgba(231, 185, 33, 0.719)",
-
-        },
-        21.4: {
-
-            "background-color": "rgb(25, 71, 168)",
-
-        },
-        21.9: {
-
-            "background-color": "rgba(231, 185, 33, 0.719)",
-
-        },
-        22.4: {
-
-            "background-color": "rgb(25, 71, 168)",
-
-        },
-        22.9: {
-
-            "background-color": "rgba(231, 185, 33, 0.719)",
-
-        },
-        23.4: {
-
-            "background-color": "rgb(25, 71, 168)",
-
-        },
-        23.9: {
-
-            "background-color": "rgba(231, 185, 33, 0.719)",
-
-        },
-        24.4: {
-
-            "background-color": "rgb(25, 71, 168)",
-
-        },
-        24.9: {
-
-            "background-color": "rgba(231, 185, 33, 0.719)",
-
-        },
-        25.4: {
-
-            "background-color": "rgb(25, 61, 158)",
-
-        },
-
-
-    },
     "#msn1":{
         6.1:{
-            display:"block",
+            display:"flex",
             bottom: "-150px",
             right: "90px",
         },
         6.5:{
-            display:"block",
+            display:"flex",
             bottom: "50px",
             right: "90px",
         },
@@ -228,12 +125,12 @@ const loadingScene = new Scene({
     },
     "#msn2":{
        13.8:{
-            display:"block",
+            display:"flex",
             bottom: "-150px",
             right: "90px",
         },
         14:{
-            display:"block",
+            display:"flex",
             bottom: "50px",
             right: "90px",
         },
@@ -243,20 +140,9 @@ const loadingScene = new Scene({
             right: "90px",
             opacity:1
         },
-        20.4:{
-            opacity:0,
 
-        },
-
-        21.5:{
-            display:"none",
-            bottom: "-150px",
-            right: "90px",
-
-        },
      
     },
-
 },
  {
     selector: true,
@@ -266,3 +152,85 @@ const loadingScene = new Scene({
 
 
 
+const IE=new Scene({
+    ".IENotification": {
+        0: {
+            opacity:0,
+
+        },
+       0.2: {
+
+        },
+        1.1: {
+            opacity:0,
+
+        },
+       1.3: {
+
+            opacity:1,
+        },
+        1.4: {
+
+            "background-color": "rgb(25, 71, 168)",
+        },
+        1.9: {
+
+            "background-color": "rgba(231, 185, 33, 0.719)",
+
+        },
+        2.4: {
+
+            "background-color": "rgb(25, 71, 168)",
+
+        },
+        2.9: {
+
+            "background-color": "rgba(231, 185, 33, 0.719)",
+
+        },
+        3.4: {
+
+            "background-color": "rgb(25, 71, 168)",
+
+        },
+        3.9: {
+
+            "background-color": "rgba(231, 185, 33, 0.719)",
+
+        },
+        4.4: {
+
+            "background-color": "rgb(25, 71, 168)",
+
+        },
+
+    },
+    "#msn2":{
+        0:{
+            bottom: "50px",
+            right: "90px",
+            opacity:1
+        },
+
+        1:{
+             display:"flex",
+             bottom: "-150px",
+             right: "90px",
+         },
+
+ 
+ 
+      
+     },
+ 
+
+},{
+    selector: true,
+    easing: "ease-in",
+});
+
+
+const vidButton=document.querySelector('.videoTrigger')
+vidButton.addEventListener('click',function(){
+    IE.play()
+})

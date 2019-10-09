@@ -112,26 +112,40 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
     font-size: 0.7em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
-    width: 280px;
+    width: 340px;
     padding: 10px;
-    border-radius: 20px;
-    border: solid black 2px;
-    height: 120px;
+    border-radius: 5px;
+    border: solid rgb(129, 129, 129) 2px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
     align-items: center;
     text-align: center;
 }
+.msnMessage{
+    display: flex;
+    flex-direction: row;
+}
+.texteMessage{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+.side{
+    display: flex;
+    align-items: center;
+    margin: 10px;   
+}
 .msnNotification h2{
-margin-bottom: 15px;
-margin-top: 7px;
+margin-bottom:4px;
+margin-top: 4px;
 font-size: 1.1em;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .msnNotification p{
     margin: 5px;
-    font-size: 1.1em;
+    font-size: 0.9em;
 }
 #msn1{
     position: absolute;
