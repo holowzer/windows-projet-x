@@ -5,12 +5,18 @@
     -o-user-select: none;
     user-select: none;
     }
+    body{
+        overflow: hidden;
+    }
 
 .Desktop{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 #windowsWallpaper{
@@ -101,4 +107,73 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
     align-items: center;
     left: 150px;
 }
+.msnNotification{
+    background: linear-gradient(180deg, rgba(98,137,190,1) 41%, rgba(255,255,255,1) 100%);
+    font-size: 0.7em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    width: 280px;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid black 2px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.msnNotification h2{
+margin-bottom: 15px;
+margin-top: 7px;
+font-size: 1.1em;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.msnNotification p{
+    margin: 5px;
+    font-size: 1.1em;
+}
+#msn1{
+    position: absolute;
+    bottom: -150px;
+    right: 90px;
+}
+#msn2{
+    position: absolute;
+    bottom: -150px;
+    right: 90px;
+}
+.rogerVideo{
+    position: absolute;
+    top: 20%;
+    left: 28vw;
+    display: none;
+    flex-direction: column;
+    border: 2.4px solid  rgb(9, 9, 163);
+    border-radius: 5px;
+    background-color: black;
+}
+.IEError{
+    width: 420px;
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    font-size: 0.7em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.IEBug{
+    position: absolute;
+    top: 17%;
+    display: none;  
+    left: 32vw;
+    border: 2.4px solid  rgb(9, 9, 163);
+    border-radius: 5px;
 
+}
+.IEError img{
+    width: 30px;
+    margin: 10px;
+}
