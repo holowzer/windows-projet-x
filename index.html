@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="style/popup.css">
     <link rel="stylesheet" href="style/loading.css">
     <link rel="stylesheet" href="style/desktop.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -21,15 +24,21 @@
             <div class="Loader"></div>
         </div>
     </div>
+    <div class="reload">
+        <h5 class="alert">L'ordinateur de Thomas <br>a crashé...</h5>
+        <a href="index.html">redémarrer</a>
+        <a href="final.html">découvrir pourquoi il est si célèbre.</a>
+
+    </div>
     <div class="Desktop">
         <div id="msn1" class="msnNotification">
             <div class="msnMessage">
                 <div class="side">
-                        <img src="img/msn.png" alt="">
+                    <img src="img/msn.png" alt="">
                 </div>
                 <div class="texteMessage">
-                        <h2>Manuella says</h2>
-                        <p>open the Paint app! <br>i draw a lil something for you </p>        
+                    <h2>Manuella says</h2>
+                    <p>open the Paint app! <br>i drawn a lil something for you </p>
                 </div>
             </div>
         </div>
@@ -37,13 +46,13 @@
         <div id="msn2" class="msnNotification">
             <div class="msnMessage">
                 <div class="side">
-                        <img src="img/msn.png" alt="">
+                    <img src="img/msn.png" alt="">
                 </div>
                 <div class="texteMessage">
-                        <h2>Roger74 says</h2>
-                        <p>bro no cap best party ever... <br>look the video on the web shiet!! </p>
-                        <div class="videoTrigger">Video Link</div>
-        
+                    <h2>Roger74 says</h2>
+                    <p>you did the best party ever... <br>look the video on the web. </p>
+                    <div class="videoTrigger">Video Link</div>
+
                 </div>
             </div>
         </div>
@@ -67,7 +76,7 @@
                     <h2 class="logoTitle">Paint</h2>
                 </div>
                 <div class="logoContainer">
-                    <a href="final.html"> <img draggable="false" src="img/demineur.png" alt=""></a>
+                    <a href="final.html"> <img draggable="false" src="img/demineurLogo.png" alt=""></a>
                     <h2 class="logoTitle">Go to main page</h2>
                 </div>
             </div>
@@ -80,16 +89,16 @@
                 </a>
             </div>
             <div class="appBar">
-                <div class="IENotification">
+                <div id="IENotification1" class="IENotification">
                     <img src="img/ie.png" alt="">
                     <h2>Roger's video</h2>
                 </div>
-                <div class="IENotification">
-                        <img src="img/ie.png" alt="">
-                        <h2>Roger's video</h2>
-                    </div>
+                <div id="IENotification2" class="IENotification">
+                    <img src="img/nytimes.png" alt="">
+                    <h2>New York Times</h2>
+                </div>
             </div>
-            
+
         </div>
     </div>
     <div class="computer">
@@ -134,6 +143,309 @@
         </div>
 
     </div>
+    <div class="mail" id="mailScene1">
+        <div class="heading">
+            <img src="img/mail.png" alt="" class="gmail">
+            <h3>Hotmail - new email</h3>
+            <img src="img/closeimg.png" alt="" class="closeIt">
+
+        </div>
+        <div class="plainText">
+            <p>
+                from:geronimo Pizza <br>
+                title:your pizza bill <br>
+                message: you bought 700 pizza this weekend. we waiting <br>
+                for a 9 500 $ payment. Call us at 0-800-456-213 to deal with us
+                about that.
+            </p>
+        </div>
+        <div class="interaction">
+            <div class="mailButton">Reply</div>
+            <div class="mailButton">Dismiss</div>
+        </div>
+    </div>
+    <div class="mail" id="mailScene2">
+        <div class="heading">
+            <img src="img/mail.png" alt="" class="gmail">
+            <h3>Hotmail - new email</h3>
+            <img src="img/closeimg.png" alt="" class="closeIt">
+
+        </div>
+        <div class="plainText">
+            <p>
+                from: California Police Dpt. <br>
+                title: police summons<br>
+                message: you have 24h to report yourself <br>
+                to the police station. neighborhood has submitted 65
+                complaints.
+            </p>
+        </div>
+        <div class="interaction">
+            <div class="mailButton">Reply</div>
+            <div class="mailButton">Dismiss</div>
+        </div>
+    </div>
+    <div class="mail" id="mailScene3">
+        <div class="heading">
+            <img src="img/mail.png" alt="" class="gmail">
+            <h3>Hotmail - new email</h3>
+            <img src="img/closeimg.png" alt="" class="closeIt">
+
+        </div>
+        <div class="plainText">
+            <p>
+                from: Hot girls near you. <br>
+                title: X hot webcams<br>
+                message: follow this link to meet <br>
+                hot girls around you https://wwwscamhotgirl.com
+
+            </p>
+        </div>
+        <div class="interaction">
+            <div class="mailButton">Reply</div>
+            <div class="mailButton">Dismiss</div>
+        </div>
+    </div>
+    <div class="mail" id="mailScene4">
+        <div class="heading">
+            <img src="img/mail.png" alt="" class="gmail">
+            <h3>Hotmail - new email</h3>
+            <img src="img/closeimg.png" alt="" class="closeIt">
+
+        </div>
+        <div class="plainText">
+            <p>
+                from: local paper <br>
+                title: was it your party?<br>
+                message: Hi, <br>
+                Ton of people in the neighborhood are interested in knowing who made these noises this loud. do you have
+                time ?
+
+            </p>
+        </div>
+        <div class="interaction">
+            <div class="mailButton">Reply</div>
+            <div class="mailButton">Dismiss</div>
+        </div>
+    </div>
+
+    <div class="mail" id="mailScene5">
+        <div class="heading">
+            <img src="img/mail.png" alt="" class="gmail">
+            <h3>Hotmail - new email</h3>
+            <img src="img/closeimg.png" alt="" class="closeIt">
+
+        </div>
+        <div class="plainText">
+            <p>
+                from: malcolm Stallone <br>
+                title:Man look the social media<br>
+                message:brooo, <br>
+                Bro Jimmy Fallon tweet about you ! you a super star ma boy.
+
+            </p>
+        </div>
+        <div class="interaction">
+            <div class="mailButton">Reply</div>
+            <div class="mailButton">Dismiss</div>
+        </div>
+    </div>
+
+    <div class="mail" id="mailScene6">
+        <div class="heading">
+            <img src="img/mail.png" alt="" class="gmail">
+            <h3>Hotmail - new email</h3>
+            <img src="img/closeimg.png" alt="" class="closeIt">
+
+        </div>
+        <div class="plainText">
+            <p>
+                from: Johny, The Guardian. <br>
+                title: Question about your party<br>
+                message: Hi, <br>
+                Everybody talk about your gigantic party.want to ask you few questions for the Guardian Newspaper.
+            </p>
+        </div>
+        <div class="interaction">
+            <div class="mailButton">Reply</div>
+            <div class="mailButton">Dismiss</div>
+        </div>
+    </div>
+
+    <div class="mail" id="mailScene7">
+        <div class="heading">
+            <img src="img/mail.png" alt="" class="gmail">
+            <h3>Hotmail - new email</h3>
+            <img src="img/closeimg.png" alt="" class="closeIt">
+
+        </div>
+        <div class="plainText">
+            <p>
+                from: Johny, The Guardian. <br>
+                title: Question about your party<br>
+                message: Hi, <br>
+                Everybody talk about your gigantic party. just want to ask you few question for the Guardian Newspaper.
+
+            </p>
+        </div>
+        <div class="interaction">
+            <div class="mailButton">Reply</div>
+            <div class="mailButton">Dismiss</div>
+        </div>
+    </div>
+
+    <div class="mail" id="mailScene8">
+        <div class="heading">
+            <img src="img/mail.png" alt="" class="gmail">
+            <h3>Hotmail - new email</h3>
+            <img src="img/closeimg.png" alt="" class="closeIt">
+
+        </div>
+        <div class="plainText">
+            <p>
+                from: spider Spam<br>
+                title: $$$$$$$<br>
+                message: you will have billions <br>
+                someone donate you 1 000 000 000$ go take it here
+                hhtps://spamtrap-bidon.com/StrangePage-you-wont-trust
+            </p>
+        </div>
+        <div class="interaction">
+            <div class="mailButton">Reply</div>
+            <div class="mailButton">Dismiss</div>
+        </div>
+    </div>
+
+    <div class="mail" id="mailScene9">
+        <div class="heading">
+            <img src="img/mail.png" alt="" class="gmail">
+            <h3>Hotmail - new email</h3>
+            <img src="img/closeimg.png" alt="" class="closeIt">
+
+        </div>
+        <div class="plainText">
+            <p>
+                from:spam corporate<br>
+                title: dollars for you now<br>
+                message: you Won 100 000$ <br>
+                you won the new Computer of your dreams go take it here
+                hhtps://spamtrap-bidon.com/StrangePage-you-wont-trust
+            </p>
+        </div>
+        <div class="interaction">
+            <div class="mailButton">Reply</div>
+            <div class="mailButton">Dismiss</div>
+        </div>
+    </div>
+
+    <div class="mail" id="mailScene10">
+        <div class="heading">
+            <img src="img/mail.png" alt="" class="gmail">
+            <h3>Hotmail - new email</h3>
+            <img src="img/closeimg.png" alt="" class="closeIt">
+
+        </div>
+        <div class="plainText">
+            <p>
+                from: taiwan corporate. <br>
+                title: spamspamspam<br>
+                message: fsdfsd, <br>
+                4z68248'-'46gf4s654fgs25dfht1e5yb546806524065
+                '1211
+                23200327//454351./ </p>
+        </div>
+        <div class="interaction">
+            <div class="mailButton">Reply</div>
+            <div class="mailButton">Dismiss</div>
+        </div>
+    </div>
+
+    <div class="mail" id="mailScene11">
+        <div class="heading">
+            <img src="img/mail.png" alt="" class="gmail">
+            <h3>Hotmail - new email</h3>
+            <img src="img/closeimg.png" alt="" class="closeIt">
+
+        </div>
+        <div class="plainText">
+            <p>
+                from: Sylvia Ressi <br>
+                title: how's your house<br>
+                message: Hi, <br>
+                Man it was just sooooo BIG. you a killer. How is your house?
+
+            </p>
+        </div>
+        <div class="interaction">
+            <div class="mailButton">Reply</div>
+            <div class="mailButton">Dismiss</div>
+        </div>
+    </div>
+
+    <div class="mail" id="mailScene12">
+        <div class="heading">
+            <img src="img/mail.png" alt="" class="gmail">
+            <h3>Hotmail - new email</h3>
+            <img src="img/closeimg.png" alt="" class="closeIt">
+
+        </div>
+        <div class="plainText">
+            <p>
+                from: Kevin Parker <br>
+                title: Thanks for inviting me To your Rave<br>
+                message: Hi, <br>
+                Everybody talk about your gigantic party. I can say i was in now !.
+            </p>
+        </div>
+        <div class="interaction">
+            <div class="mailButton">Reply</div>
+            <div class="mailButton">Dismiss</div>
+        </div>
+    </div>
+
+    <div class="mail" id="mailScene13">
+        <div class="heading">
+            <img src="img/mail.png" alt="" class="gmail">
+            <h3>Hotmail - new email</h3>
+            <img src="img/closeimg.png" alt="" class="closeIt">
+
+        </div>
+        <div class="plainText">
+            <p>
+                from: Kevin, The time. <br>
+                title: Question about your relation with cartel<br>
+                message: Hi, <br>
+                I hope this mail is still active. just want to ask you few question for the Time Newspaper.
+
+            </p>
+        </div>
+        <div class="interaction">
+            <div class="mailButton">Reply</div>
+            <div class="mailButton">Dismiss</div>
+        </div>
+    </div>
+    <div class="mail" id="mailNYTrigger">
+            <div class="heading">
+                <img src="img/mail.png" alt="" class="gmail">
+                <h3>Hotmail - new email</h3>
+                <img src="img/closeimg.png" alt="" class="closeIt">
+    
+            </div>
+            <div class="plainText">
+                <p>
+                    from: Louis Fallback <br>
+                    title: bro you are in NY times<br>
+                    message: Hi, <br>
+                    my brother you made it. first the party, Now you are in the news paper!!
+    
+                </p>
+            </div>
+            <div class="interaction">
+                <div class="mailButton triggerMail">See</div>
+            </div>
+        </div>
+
+
 
     <div class="rogerVideo">
         <div class="bar">
@@ -144,11 +456,12 @@
             </div>
         </div>
 
-        <iframe width="640" height="360" src="https://uptostream.com/iframe/s545o7aod2sj" scrolling="no" frameborder="0" allowfullscreen webkitallowfullscreen></iframe>
+        <iframe width="640" height="360" src="https://uptostream.com/iframe/s545o7aod2sj" scrolling="no" frameborder="0"
+            allowfullscreen webkitallowfullscreen></iframe>
     </div>
     <div class="IEBug">
         <div class="bar">
-            <div class="popupTitle">Roger's video</div>
+            <div class="popupTitle">Internet Explorer Erreur</div>
             <div class="popupButtons">
                 <img class="question" src="img/questionButton.png" alt="">
                 <img id="closeIE" src="img/closeimg.png" alt="">
@@ -157,6 +470,52 @@
         <div class="IEError">
             <h3>Internet Explorer a rencontré un problème.</h3>
             <img src="img/dotError.png" alt="">
+        </div>
+    </div>
+    <div class="press">
+        <div class="bar">
+            <div class="popupTitle">New York Times App</div>
+            <div class="popupButtons">
+                <img class="question" src="img/questionButton.png" alt="">
+                <img id="closeNY" src="img/closeimg.png" alt="">
+            </div>
+        </div>
+        <div class="NYTimesArticle">
+            <div class="article">
+                <div class="head">
+                    <h3>global edition </h3>
+                    <img src="img/nytimes.png" alt="" srcset="">
+                </div>
+                <div class="blocText">
+                    <h2>this morning in new york i know who i am take care of yourself</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, ex, repellat eaque dolor
+                        dolorum amet, quas minima nobis pariatur reprehenderit distinctio tempore voluptates!
+                        Accusantium nam numquam recusandae exercitationem quae temporibus.
+                        Eveniet dolore ad, mollitia eligendi odio, dolorem earum doloribus facere voluptatibus
+                        asperiores sed quibusdam quisquam quaerat in fugiat obcaecati minus, neque cupiditate modi
+                        voluptates hic quod labore. Laborum, expedita assumenda!
+                        Rem eaque officiis tenetur unde nam maxime non est dicta veritatis odit nostrum laborum, et
+                        soluta exercitationem esse debitis accusantium praesentium vitae! Eveniet maiores sed, molestiae
+                        facere excepturi perspiciatis corrupti.
+                        Culpa quis eaque atque, itaque commodi mollitia? Voluptas porro, facilis tenetur eligendi
+                        architecto odit nisi atque dolorem qui possimus. Nulla, veritatis inventore. Alias natus quaerat
+                        numquam corrupti adipisci. Consequatur, nam.</p>
+                    <img src="img/soirée.jpg" id="articlePhoto" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, ex, repellat eaque dolor
+                        dolorum amet, quas minima nobis pariatur reprehenderit distinctio tempore voluptates!
+                        Accusantium nam numquam recusandae exercitationem quae temporibus.
+                        Eveniet dolore ad, mollitia eligendi odio, dolorem earum doloribus facere voluptatibus
+                        asperiores sed quibusdam quisquam quaerat in fugiat obcaecati minus, neque cupiditate modi
+                        voluptates hic quod labore. Laborum, expedita assumenda!
+                        Rem eaque officiis tenetur unde nam maxime non est dicta veritatis odit nostrum laborum, et
+                        soluta exercitationem esse debitis accusantium praesentium vitae! Eveniet maiores sed, molestiae
+                        facere excepturi perspiciatis corrupti.
+                        Culpa quis eaque atque, itaque commodi mollitia? Voluptas porro, facilis tenetur eligendi
+                        architecto odit nisi atque dolorem qui possimus. Nulla, veritatis inventore. Alias natus quaerat
+                        numquam corrupti adipisci. Consequatur, nam. <br><br>Article By Kevin Monsaleno 09/05/2012 </p>
+
+                </div>
+            </div>
         </div>
     </div>
 

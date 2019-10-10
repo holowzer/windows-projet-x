@@ -86,6 +86,16 @@ opacity: 0.73;
 #closeIE:hover{
 opacity: 0.73;
 }
+#closeNY{
+    width: 23px;
+    height: auto;
+    opacity: 1;
+    padding-left: 5px;
+    transition: 0.1s ease-in-out all;
+}
+#closeNY:hover{
+opacity: 0.73;
+}
 
 .question{
     width: 23px;

@@ -3,18 +3,15 @@ const paint=document.querySelector('.paint')
 const roger=document.querySelector('.rogerVideo')
 const IEBug=document.querySelector('.IEBug')
 
-
 const closePaint=document.querySelector("#closePaint")
 const closeComputer=document.querySelector("#closeComputer")
 const closeRoger=document.querySelector('#closeRoger')
 const closeIE=document.querySelector('#closeIE')
 
-
 const logopaint=document.querySelector('.paintlog')
 const logoComputer=document.querySelector("#logoComputer")
 const IENotification=document.querySelector('.IENotification')
 const logoIE=document.querySelector('#logoIE')
-
 
 
 

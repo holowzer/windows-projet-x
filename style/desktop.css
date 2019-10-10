@@ -1,15 +1,17 @@
-.logoContainer img,img#start {
+.logoContainer img,
+img#start {
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
-    }
-    body{
-        overflow: hidden;
-    }
+}
 
-.Desktop{
+body {
+    overflow: hidden;
+}
+
+.Desktop {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -19,87 +21,101 @@
     left: 0;
 }
 
-#windowsWallpaper{
-min-width: 100vw;
-height: 100vh;
+#windowsWallpaper {
+    min-width: 100vw;
+    height: 100vh;
 
 }
-.navbarWindows{
+
+.navbarWindows {
     width: 100%;
     display: block;
     position: absolute;
     bottom: 0;
     height: 42px;
-    background-color:#225AD8;
+    background-color: #225AD8;
 }
-#start{
-    width:auto;
+
+#start {
+    width: auto;
     height: 100%;
     opacity: 1;
 }
-#start:hover{
-    width:auto;
+
+#start:hover {
+    width: auto;
     opacity: 0.83;
     height: 100%;
 }
-.button{
+
+.button {
     height: 42px;
 }
-.mainSpace{
+
+.mainSpace {
     position: absolute;
     background-color: rgba(0, 0, 0, 0);
     top: 140px;
     left: 60px;
 }
-.logoTitle{
+
+.logoTitle {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-size: 0.7em;
     text-shadow: black 1px 1px;
 
 }
-.logoContainer{
+
+.logoContainer {
     margin: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
 
 }
-.logoContainer img{
+
+.logoContainer img {
     width: 2.4em;
 }
-.logos{
+
+.logos {
     display: flex;
     align-items: center;
-    flex-direction: column;                         
+    flex-direction: column;
 }
-.IENotification{
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   opacity:0;
-   color: white;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   width: 240px;
-   height: 38px;
-   background-color: rgb(25, 71, 168);
-   border-radius: 5px;
+
+.IENotification {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 240px;
+    height: 38px;
+    background-color: rgb(25, 71, 168);
+    border-radius: 5px;
 
 }
-.IENotification:hover{
+
+.IENotification:hover {
     background-color: rgb(15, 57, 146);
 
 }
-.IENotification img{
+
+.IENotification img {
     width: 20px;
     margin: 8px;
     height: 20px;
 }
-.IENotification h2{
-font-size: 0.6em;
-font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
-.appBar{
+.IENotification h2 {
+    font-size: 0.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.appBar {
     position: absolute;
     top: 0px;
     height: 42px;
@@ -107,8 +123,9 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
     align-items: center;
     left: 150px;
 }
-.msnNotification{
-    background: linear-gradient(180deg, rgba(98,137,190,1) 41%, rgba(255,255,255,1) 100%);
+
+.msnNotification {
+    background: linear-gradient(180deg, rgba(98, 137, 190, 1) 41%, rgba(255, 255, 255, 1) 100%);
     font-size: 0.7em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
@@ -119,55 +136,66 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
     height: 80px;
     display: flex;
     justify-content: space-between;
+    
     align-items: center;
     text-align: center;
 }
-.msnMessage{
+
+.msnMessage {
     display: flex;
     flex-direction: row;
+
 }
-.texteMessage{
+
+.texteMessage {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding-left: 30px;
 }
-.side{
+
+.side {
     display: flex;
     align-items: center;
-    margin: 10px;   
+    margin: 10px;
 }
-.msnNotification h2{
-margin-bottom:4px;
-margin-top: 4px;
-font-size: 1.1em;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.msnNotification h2 {
+    margin-bottom: 4px;
+    margin-top: 4px;
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.msnNotification p{
+
+.msnNotification p {
     margin: 5px;
     font-size: 0.9em;
 }
-#msn1{
+
+#msn1 {
     position: absolute;
     bottom: -150px;
     right: 90px;
 }
-#msn2{
+
+#msn2 {
     position: absolute;
     bottom: -150px;
     right: 90px;
 }
-.rogerVideo{
+
+.rogerVideo {
     position: absolute;
     top: 20%;
     left: 28vw;
     display: none;
     flex-direction: column;
-    border: 2.4px solid  rgb(9, 9, 163);
+    border: 2.4px solid rgb(9, 9, 163);
     border-radius: 5px;
     background-color: black;
 }
-.IEError{
+
+.IEError {
     width: 420px;
     height: 120px;
     background-color: #fff;
@@ -178,16 +206,204 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.7em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.IEBug{
+
+.IEBug {
     position: absolute;
     top: 17%;
-    display: none;  
+    display: none;
     left: 32vw;
-    border: 2.4px solid  rgb(9, 9, 163);
+    border: 2.4px solid rgb(9, 9, 163);
     border-radius: 5px;
 
 }
-.IEError img{
+
+.IEError img {
     width: 30px;
     margin: 10px;
+}
+
+.NYTimesArticle {
+    width: 700px;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: #fff;
+}
+
+.article {
+  
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.press {
+    position: absolute;
+    top: 20%;
+    display: none;
+    left: 20%;
+}
+.article p{
+    margin: 20px 70px 10px 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+
+
+}
+.article h2{
+    text-align: center;
+    margin: 20px 70px 10px 70px;
+    font-size: 2.3em;
+    font-family: 'Merriweather', serif;
+}
+.article img{
+    width: 190px;
+    margin: 20px;
+}
+.blocText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+#articlePhoto{
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+.head h3{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bolder;
+    color: rgb(163, 36, 36);
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+    font-size: 1.3em;
+}
+.mail{
+    width: 530px;
+    height: 180px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: none;
+    border: black 2px solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+}
+.mail img{
+    max-width: 35px;;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 4px;
+
+}
+.closeIt{
+    margin-left: 280px;
+    margin-top: 7px;
+    width: 20px;
+    height: 20px;
+}
+.heading h3{
+    margin: 8px 0 5px 10px;
+    font-size: 0.9em;
+}
+.mail p{
+    font-size: 0.9em;
+    margin: 3px 0 5px 25px;
+    width: 440px;
+}
+.interaction{
+    display: flex;
+    margin: 7px 50px 0px 50px;
+    justify-content: center;
+    align-items: center;
+}
+.mailButton{
+ background-color:rgb(202, 202, 202);
+ border: #225AD8 solid 1px;
+ width: 90px;
+ height: 35px;
+ margin: 2px 15px 2px 15px;
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ transition: 0.1s ease-in all;
+}
+.mailButton:hover{
+    background-color: rgb(240, 240, 240);
+    border: rgb(33, 70, 156) solid 1px;
+
+}
+#mailScene1{
+    left: 60%;
+    top: 100px;
+
+}
+#mailScene2{
+    left: 10%;
+    top: 400px;
+
+}
+#mailScene3{
+    left: 55%;
+    top: 440px;
+
+    
+}
+#mailScene4{
+    left: 15%;
+    top: 200px;
+
+}
+#mailNYTrigger{
+    display: none;
+}
+
+.reload{
+    width: 98vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    border: #225AD8 2px solid;
+    position: absolute;
+    color: aliceblue;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.reload h5{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3.4em;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.reload a{
+    width: 310px;
+    height: 40px;
+    background-color: rgba(44, 2, 2, 0);
+    border: red solid 1px;
+    display: flex;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    justify-content: center;
+    z-index: 99 !important;
+    margin-top: 20px;
+    align-items: center;
+    transition: 0.5s;
+    color: wheat;
+    text-decoration: none;
+}
+.reload a:hover{
+    background-color: rgb(255, 0, 0);
+
 }

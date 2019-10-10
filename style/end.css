@@ -4,6 +4,7 @@ body {
     margin: 0%;
     background: black;
     cursor: none;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -31,7 +32,6 @@ body {
 .countFrame {
     width: 65%;
     font-family: 'Roboto', sans-serif;
-    height: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
@@ -54,6 +54,7 @@ body {
     margin-top: 20px;
     align-items: center;
     transition: 0.5s;
+    transition-delay: 200ms !important;
 
 }
 #morph{
@@ -64,22 +65,23 @@ body {
 .linkToStream:hover {
 
     background-color: rgb(255, 0, 0);
-
-
-
+    transform: scale(1.2) !important;
 
 }
 
 #seconds {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 5.9em;
-    color: rgb(124, 4, 4);
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4.4em;
+    color: white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
 
 #littleS {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.9em;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3.9em;
     padding-top: 100px;
+    text-shadow: rgba(255, 0, 0, 0.513) 0px 0px 60px;
     color: rgb(124, 4, 4);
 }
 
@@ -99,8 +101,13 @@ body {
 }
 
 .countFrame h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3.5em;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3.4em;
+    color: white;
+    letter-spacing: 5px;
+text-transform: uppercase;
+    font-size: 2.5em;
+    margin: 10px;
 }
 
 /* 2ème partie */
@@ -124,9 +131,11 @@ body {
 
 .quote {
     position: absolute;
-    top: 30%;
-    left: 28%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3.4em;
+    color: white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
     font-size: 4.1em;
 }
 
@@ -162,6 +171,7 @@ body {
 #topo {
     top: 250px;
     left: 5%;
+    width: 380px;
     font-size: 3em;
 }
 
@@ -197,6 +207,7 @@ h1::after {
     justify-content: space-around;
     background-color: rgb(82, 29, 29);
 }
+.computer
 
 #computer {
     width: 300px;
@@ -265,8 +276,15 @@ h1::after {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    flex-direction: column;
 
+    height: 100px;
+}
+.mainLink input{
+    margin: 5px;
+}
+.mainLink label{
+text-align: center;
 }
 
 .social {
@@ -300,6 +318,7 @@ h1::after {
 
 #YOLO {
     z-index: 1200000;
+    text-align: center;
 }
 
 .allocine {
@@ -347,7 +366,7 @@ z-index: 3;
     letter-spacing: 5px;
     text-transform: uppercase;
     margin: 50px;
-    top: 140px;
+    top: 80px;
     opacity: 1;
     text-align: center;
 }

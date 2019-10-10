@@ -1,12 +1,4 @@
 
-
-// ScrollReveal().reveal('#computer', { 
-//     delay: 500 ,
-//     origin:'left',
-//     distance: "50px",
-//     duration: 1500,
-//     reset:true,
-// });
 ScrollReveal().reveal('#closeMe', { 
     delay: 800 ,
     origin:'left',
@@ -15,9 +7,9 @@ ScrollReveal().reveal('#closeMe', {
     reset:true,
 });
 ScrollReveal().reveal('.linkToStream', { 
-    delay: 200 ,
+    delay: 0 ,
     origin:'left',
     distance: "50px",
-    duration: 1700,
+    duration: 700,
     reset:true,
 });
