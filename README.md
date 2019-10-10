@@ -2,7 +2,7 @@
 
 # Project Windows X
 
-it's an unofficial page to create promotion around the project x's movie by imagining what would hero's computer be after the gigantic party.
+it's an unofficial page to create promotion around the Project X's movie by imagining what would hero's computer be after the gigantic party.
 we imagine how his fame goes etc..
 
 
