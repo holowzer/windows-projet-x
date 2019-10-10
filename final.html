@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/end.css">
-    <meta name="robots" content="noindex, nofollow">
     <title>ProjectXperience</title>
     <meta name="description" content="texte">
+    <meta name="robots" content="noindex, nofollow">
     <link rel="icon" href="img/x.ico" />
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Roboto|Roboto+Mono&display=swap" rel="stylesheet">
 
@@ -24,7 +24,7 @@
         </div>
         <div class="countFrame">
             <div class="txt">
-                <h2 class="rellax" data-rellax-speed="4.1" data-rellax-percentage="0.6">Assistez à la soirée la plus excessive jamais réalisé en avant première.</p>
+                <h2 class="rellax" data-rellax-speed="4.1" data-rellax-percentage="0.6">Assistez à la soirée la plus excessive jamais réalisé au cinéma.</p>
             </div>
             <div class="counter">
                 <span id="seconds">PROJET</span><span id="littleS">X</span>
@@ -99,14 +99,19 @@
             <p id="bcQuote">"C'est censé être une petite réunion. Je voulais être cool pour une nuit. Je voulais que les
                 filles me remarquent. Puis les choses sont devenues un peu incontrôlables."</p>
         </div>
+
+
         <div class="thirdBoard">
+            <div class="computerContainer">
             <a href="index.html">
                 <div class="computer">
-                    <h4 id="behind" class="rellax" data-rellax-speed="1.3" data-rellax-percentage="0.5">FOUILLEZ
+                    <h4 id="behind" class="rellax" data-rellax-speed="1.3" data-rellax-percentage="1">FOUILLEZ
                         L'ORDINATEUR</h4>
                     <img id="computer" src="img/oldcomputer.png" alt="">
                     <h4 id="front" class="rellax" data-rellax-speed="0.2" data-rellax-percentage="0.9">DE THOMAS</h4>
                 </div>
+            </div>
+
             </a>
             <div class="additionalLink">
                 <div class="top">
@@ -115,13 +120,56 @@
                 </div>
                 <div class="mainLink">
                     <label for="name">rentrez le bon code trouvé sur l'ordinateur de thomas pour gagner deux places pour
-                        l'avant première de projet X.</label>
+                        la projection de projet X au cinéma.</label>
 
-                    <input type="text" id="name" name="name" required minlength="4" maxlength="4" size="15">
+                    <input style="text-align:center;" autocomplete="off" type="text" placeholder="the code ?" id="codex" name="name" required minlength="4" maxlength="4" size="9">
+                    <input style="text-align:center;" autocomplete="off" type="text" placeholder="your Email" id="codex" name="name" required minlength="4" maxlength="80" size="25">
+
+                    <div class="checkWin">Valider</div>
                 </div>
 
             </div>
         </div>
+
+
+<div id="true" class="result">you won</div>
+<div id="wrong" class="result">not for today...  </div>
+
+       
+<div class="cineContainer">
+        <h2>prenez vos places en ligne ?</h2>
+
+        <div class="cinemax">
+                <div class="cine">
+                  <div class="photoContainer"><img src="img/cine1.jpg" alt="" class="visuel"></div>  
+                    <h2>Gaumont Pathé République</h2>
+                    <div class="resaButton">Réservez dans ce cinéma</div>
+                </div>
+                <div class="cine">
+                  <div class="photoContainer"><img src="img/cine2.jpg" alt="" class="visuel"></div>  
+                    <h2>UGC Montparnasse</h2>
+                    <div class="resaButton">Réservez dans ce cinéma</div>
+                </div>
+                <div class="cine">
+                   <div class="photoContainer"><img src="img/cine3.jpg" alt="" class="visuel"></div> 
+                    <h2>MK2 Bastille</h2>
+                    <div class="resaButton">Réservez dans ce cinéma</div>
+                </div>
+        
+            </div>
+        </div>
+        <footer>
+            <div class="mentionContainer">
+            <p class="mention">Ce travail a été réalisé dans le cadre d’un projet pédagogique et à des fins pédagogiques. <br> Les droits d’exploitation n’ont pas fait l’objet d’une vérification, ni d’une acquisition.</p>
+            <img src="img/Logo-Warner-Bros.webp" alt="" class="footMention">
+            <a href="">mentions légales</a>
+            <a href="">Anecdotes</a>
+            <a href="">mentions légales</a>
+            <a href="">Anecdotes</a>
+        </div>
+        </footer>
+        
+
         <script src="https://unpkg.com/scrollreveal"></script>
         <script src="script/revealMe.js"></script>
 
@@ -129,8 +177,6 @@
         <script src="script/mouseCustom.js"></script>
         <script src="https://daybrush.com/scenejs/release/latest/dist/scene.min.js"></script>
         <script src="script/scenePromo.js"></script>
-
-
 
 </body>
 

@@ -138,3 +138,47 @@ const x = new Scene({
     easing: "ease",
     iterationCount:"infinite",
 }).play();
+
+
+
+const won=document.querySelector('#true')
+const loose=document.querySelector("#wrong")
+const code=document.querySelector('#codex')
+const check=document.querySelector('.checkWin')
+let val
+
+
+const youWon=new Scene({
+    "#true":{
+        0:{display:"none",},
+        0.1:{display:'flex',},
+        1.1:{display:'none',},
+
+    },
+},{
+    selector: true,
+    easing: "ease",
+})
+const youLoose=new Scene({
+    "#wrong":{
+        0:{display:"none",},
+        0.1:{display:'flex',},
+        1.1:{display:'none',},
+
+    },
+},{
+    selector: true,
+    easing: "ease",
+})
+
+
+check.addEventListener('click',function(){
+    let val=code.value
+    if(val==1113){
+        youWon.play();
+    }
+    else{
+        youLoose.play()
+    }
+
+})
