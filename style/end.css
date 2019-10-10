@@ -222,14 +222,14 @@ h1::after {
 #behind {
     position: absolute;
     top: 24px;
-    left: 20.5%;
+    left: 17.5%;
     z-index: 9;
 }
 
 #front {
     position: absolute;
     top: 260px;
-    left: 37.2%;
+    left: 35.2%;
     z-index: 11;
 }
 

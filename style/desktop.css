@@ -83,8 +83,18 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: -80px;
 }
+.notepad{
+    position: absolute;
+    top: 20%;
+    display: none;
+    left: 40%;
+    border: 2.4px solid rgb(9, 9, 163);
+    border-radius: 5px;
 
+
+}
 .IENotification {
     display: flex;
     flex-direction: row;
@@ -286,13 +296,17 @@ body {
     height: 180px;
     background-color: rgb(255, 255, 255);
     position: absolute;
+    opacity: 0.9;
     display: none;
     border: black 2px solid;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 4px;
 }
 .mail img{
-    max-width: 35px;;
+    max-width: 35px;
+}
+.gmail{
+    height: 30px;
 }
 .heading{
     display: flex;
@@ -301,6 +315,10 @@ body {
     text-align: center;
     margin: 4px;
 
+}
+.write{
+    display: flex;
+    flex-direction: column;
 }
 .closeIt{
     margin-left: 280px;
@@ -364,12 +382,21 @@ body {
 #mailNYTrigger{
     display: none;
 }
-
+.demin{
+position: absolute;
+top: 20%;
+left: 40%;
+display: none;
+border: 2.4px solid rgb(9, 9, 163);
+border-radius: 5px;
+}
+.displayDemineur{
+    margin-bottom: -5px;
+}
 .reload{
     width: 98vw;
     height: 100vh;
     background-color: rgb(0, 0, 0);
-    border: #225AD8 2px solid;
     position: absolute;
     color: aliceblue;
     display: none;

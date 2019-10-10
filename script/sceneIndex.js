@@ -401,10 +401,10 @@ const hack = new Scene({
     },
     ".mail": {
         0: {
-            opacity: 1,
+            opacity: 0.86,
         },
         15.5: {
-            opacity: 1,
+            opacity: 0.86,
         },
         15.6: {
             opacity: 0,
@@ -456,9 +456,13 @@ const NYPlay = new Scene({
 
 const NYOpen = new Scene({
     ".press": {
-        1: {
+        0: {
+            display: "none",
+        },
+        1.5: {
             display: "block",
         },
+
     },
     "#mailNYTrigger": {
         0: {
