@@ -1,0 +1,199 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+}
+.popup{
+    height:500px;
+    width: 800px;
+    position: absolute;
+    top: 12%;
+    margin: 0%;
+    padding: 0%;
+    left:30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2.4px solid  rgb(9, 9, 163);
+    border-radius: 5px;
+}
+.popup2{
+    position: absolute;
+    top: 12%;
+    margin: 0%;
+    padding: 0%;
+    left:30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2.4px solid  rgb(9, 9, 163);
+    border-radius: 5px;
+}
+
+.bar{
+    background: linear-gradient(180deg, rgb(9, 9, 163) 30%, rgb(30, 48, 214) 100%);  
+    height: 30px;
+    padding: 0;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+}
+#closeComputer{
+    width: 23px;
+    height: auto;
+    opacity: 1;
+    padding-left: 5px;
+    transition: 0.1s ease-in-out all;
+}
+#closeComputer:hover{
+opacity: 0.73;
+}
+
+#closeDemineur{
+    width: 23px;
+    height: auto;
+    opacity: 1;
+    padding-left: 5px;
+    transition: 0.1s ease-in-out all;
+}
+#closeDemineur:hover{
+opacity: 0.73;
+}
+
+#closePaint{
+    width: 23px;
+    height: auto;
+    opacity: 1;
+    padding-left: 5px;
+    transition: 0.1s ease-in-out all;
+}
+#closePaint:hover{
+opacity: 0.73;
+}
+#closeNotepad{
+    width: 23px;
+    height: auto;
+    opacity: 1;
+    padding-left: 5px;
+    transition: 0.1s ease-in-out all;
+}
+#closeNotepad:hover{
+opacity: 0.73;
+}
+
+#closeRoger{
+    width: 23px;
+    height: auto;
+    opacity: 1;
+    padding-left: 5px;
+    transition: 0.1s ease-in-out all;
+}
+#closeRoger:hover{
+opacity: 0.73;
+}
+#closeIE{
+    width: 23px;
+    height: auto;
+    opacity: 1;
+    padding-left: 5px;
+    transition: 0.1s ease-in-out all;
+}
+#closeIE:hover{
+opacity: 0.73;
+}
+#closeNY{
+    width: 23px;
+    height: auto;
+    opacity: 1;
+    padding-left: 5px;
+    transition: 0.1s ease-in-out all;
+}
+#closeNY:hover{
+opacity: 0.73;
+}
+
+.question{
+    width: 23px;
+    height: auto;
+    opacity: 1;
+    padding-left: 5px;
+    transition: 0.1s ease-in-out all;
+}
+.question:hover{
+opacity: 0.83;
+}
+
+.bar div{
+    width: 50%;
+}
+.popupButtons{
+    display: flex;
+    flex-direction: row;
+    padding-right: 3px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.popupTitle{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    font-weight: 800;
+    padding-left: 9px;
+    padding-bottom: 2px;
+}
+.folder{
+    width: 42px;
+    margin: 40px 0 0 0;
+    height: auto;
+}
+.folderTitle{
+    font-size: 0.7em;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.content{
+    display: flex;
+    height: 80%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.videoTrigger{
+    width: 90px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgb(147, 146, 179);
+}
+.folderHolder{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin:0 0 0 10px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.computer{
+    display: none;
+}
+.paint{
+    display: none;
+}
+.rogerVideo{
+display: none;
+}
